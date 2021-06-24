@@ -537,7 +537,7 @@ const certifications = {
       title: "Nagios XI",
       subtitle: "Nagios",
       logo_path: "nagios.png",
-      certificate_link: "https://www.hackerrank.com/rohankokkula",
+      certificate_link: "https://www.hackerrank.com/",
       alt_name: "HackerRank",
       color_code: "#000000",
     },
