@@ -4,21 +4,21 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Rohan Kokkula | Portfolio",
+  title: "Nitesh Karki | Portfolio",
   description:
-    "A Data Science practitioner who thrives to leverage startups with AI based solutions with a blend of UI/UX",
+    "An AWS certified DevOps Engineer with 5+ years of experience in multi-national IT enterprise environments. Managed large scale servers, firewalls, and networking, extremely proficient with cloud technology like AWS, VMware, Azure & Rackspace, and have a deep passion for enterprise-wide system & security management.",
   og: {
-    title: "Rohan Portfolio",
+    title: "Nitesh's Portfolio",
     type: "website",
-    url: "http://rohankokkula.ml/",
+    url: "http://niteshk.com.np/",
   },
 };
 
 //Home Page
 const greeting = {
   title: "Namaste!",
-  sub: "Rohan Kokkula",
-  logo_name: "Rohan Kokkula",
+  sub: "Nitesh Karki",
+  logo_name: "Nitesh Karki",
   resumeLink: "",
 };
 
@@ -31,31 +31,15 @@ const competitiveSites = {
       style: {
         color: "white",
       },
-      profileLink: "https://github.com/rohankokkula",
+      profileLink: "https://github.com/nitesh-tekkon",
     },
     {
-      siteName: "HackerRank",
-      iconifyClassname: "simple-icons:hackerrank",
+      siteName: "AWS",
+      iconifyClassname: "logos:aws",
       style: {
-        color: "#2EC866",
+        color: "white",
       },
-      profileLink: "https://www.hackerrank.com/rohankokkula01",
-    },
-    {
-      siteName: "Kaggle",
-      iconifyClassname: "simple-icons:kaggle",
-      style: {
-        color: "#20BEFF",
-      },
-      profileLink: "https://www.kaggle.com/rohan0301",
-    },
-    {
-      siteName: "Hackerearth",
-      iconifyClassname: "simple-icons:hackerearth",
-      style: {
-        color: "#323754",
-      },
-      profileLink: "https://www.hackerearth.com/@rohankokkula",
+      profileLink: "https://www.youracclaim.com/badges/6e1ca2b5-f814-4bb6-b949-5be38efaf988/linked_i",
     },
     {
       siteName: "LinkedIn",
@@ -63,7 +47,7 @@ const competitiveSites = {
       style: {
         color: "#0077b5",
       },
-      profileLink: "https://www.linkedin.com/in/rohankokkula/",
+      profileLink: "https://www.linkedin.com/in/nitesh-karki-devops/",
     },
     {
       siteName: "HashNode",
@@ -80,57 +64,83 @@ const competitiveSites = {
 const skills = {
   data: [
     {
-      title: "Data Science & Analysis",
+      title: "DevOps Engineer",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Developing highly scalable production-ready models for various deep learning and statistical use cases",
-        "⚡ Experience in working with Computer Vision using OpenCV and NLP projects(T5-Transformer & OpenAI)",
-        "⚡ Having good hands-on with Data Cleaning, processing & Analysing using Pandas, Tableau & PowerBI",
-        "⚡ Experience with Text-to-speech encoders/decoders (speech synthesis) & Voice Cloning",
+        "⚡ Deploy, manage, and operate scalable, highly available, and fault-tolerant systems on AWS/Microsoft Azure/Google Cloud/Digitalocean/Rackspace.",
+        "⚡ Experience with standing up a continuous delivery pipeline using tools like Jenkins, GitLabCI, Drone and Docker.",
+        "⚡ Estimate AWS usage costs and identify operational cost control mechanisms with advanced cost optimization techniques",
+        "⚡ Experience and knowledge of scripting with Bash & Python and IT Automation with Ansible.",
       ],
       softwareSkills: [
         {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
+          skillName: "AWS",
+          fontAwesomeClassname: "logos-aws",
           style: {
             backgroundColor: "transparent",
           },
         },
         {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
+          skillName: "Google",
+          fontAwesomeClassname: "logos-google",
           style: {
             backgroundColor: "transparent",
           },
         },
         {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
+          skillName: "Kubernetes",
+          fontAwesomeClassname: "logos-kubernetes",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
           },
         },
         {
-          skillName: "Pandas",
-          fontAwesomeClassname: "simple-icons:pandas",
+          skillName: "Docker",
+          fontAwesomeClassname: "simple-icons:docker",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
           },
         },
         {
-          skillName: "NumPy",
-          fontAwesomeClassname: "logos-numpy",
+          skillName: "serverless",
+          fontAwesomeClassname: "logos-serverless",
           style: {
             backgroundColor: "transparent",
           },
+        }
+      ],
+    },
+    {
+      title: "Cyber Security",
+      fileName: "DesignImg",
+      skills: [
+        "⚡ Penetration testing | SQL injection | XSS",
+        "⚡ NagiosXI | zabbix | mon | ganglia -- monitoring and alerting system (both performance and alerting).",
+        "⚡ Familiarity with operations of Python, Node.js, & php applications.",
+        "⚡ Monitoring and alerting system setup for large scale servers.",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Security",
+          fontAwesomeClassname: "mdi:server-security",
+          style: {
+            color: "#FF2BC2",
+          },
         },
         {
-          skillName: "Tableau",
-          fontAwesomeClassname: "logos-tableau",
+          skillName: "Database",
+          fontAwesomeClassname: "mdi:database-check-outline",
           style: {
-            backgroundColor: "transparent",
+            color: "#FF7C00",
+          },
+        },
+        {
+          skillName: "Servers",
+          fontAwesomeClassname: "ant-design:cloud-server-outlined",
+          style: {
+            color: "#2fa3f7",
           },
         },
       ],
@@ -140,8 +150,8 @@ const skills = {
       fileName: "FullStackImg",
       skills: [
         "⚡ Building responsive websites using HTML5, CSS3, BootStrap5, ReactJS & NodeJS",
-        "⚡ Creating application backend in Node, Flask & Streamlit",
-        "⚡ Having experience in Domain & Hosting using Netlify, Vercel, Heroku & Hostinger",
+        "⚡ Creating application backend in Node & Python Flask",
+        "⚡ Having experience in Domain & Hosting using AWS, GCP, Heroku & cPanel",
       ],
       softwareSkills: [
         {
@@ -149,27 +159,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:html5",
           style: {
             color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
-        },
-        {
-          skillName: "BootStrap",
-          fontAwesomeClassname: "logos-bootstrap",
-          style: {
-            color: "#CC6699",
           },
         },
         {
@@ -199,46 +188,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:npm",
           style: {
             color: "#CB3837",
-          },
-        },
-      ],
-    },
-    {
-      title: "UI/UX Design",
-      fileName: "DesignImg",
-      skills: [
-        "⚡ Designing highly attractive user interfaces for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
-        "⚡ Applying latest Design principles and experienced in product wireframing",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
-        },
-        {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Adobe Photoshop",
-          fontAwesomeClassname: "simple-icons:adobephotoshop",
-          style: {
-            color: "#2fa3f7",
-          },
-        },
-        {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
-          style: {
-            color: "#F24E1E",
           },
         },
       ],
@@ -285,165 +234,165 @@ const projectcards = {
         },
       ],
       link: "https://teath.herokuapp.com ",
-      code: "https://github.com/rohankokkula/TEATH",
+      code: "https://github.com/nitesh-tekkon/TEATH",
       linkcolor: "white",
     },
 
-    {
-      title: "Voice Gender Detection",
-      img_path: "voice.gif",
-      description:
-        "A streamlit webapp which detects user's gender and emotion based on realtime audio input.",
-      tags: [
-        {
-          lang: "ongoing",
-          color: "red",
-        },
-        {
-          lang: "python",
-          color: "#004782",
-        },
-        {
-          lang: "matplotlib",
-          color: "#c47206",
-        },
-        {
-          lang: "tensorflow",
-          color: "#4257f5",
-        },
-        {
-          lang: "Streamlit",
-          color: "#ff4b4b",
-        },
-      ],
-      link: "",
-      code: "",
-      linkcolor: "white",
-    },
-    {
-      title: "NeuralViz",
-      img_path: "neural.gif",
-      description:
-        "A webapp to visualize Neural Networks based on no. of layers and neurons, calculate Loss and understand math behind Back Propagation algo.",
-      tags: [
-        {
-          lang: "python",
-          color: "#004782",
-        },
-        {
-          lang: "numpy",
-          color: "#8700b0",
-        },
-        {
-          lang: "matplotlib",
-          color: "#c47206",
-        },
-        {
-          lang: "Streamlit",
-          color: "#ff4b4b",
-        },
-        {
-          lang: "Heroku",
-          color: "#3c0095",
-        },
-      ],
-      link: "https://neuralviz.herokuapp.com/",
-      code: "https://github.com/rohankokkula/neuralviz",
-      linkcolor: "white",
-    },
-    {
-      title: "Semantic Search APP",
-      img_path: "project-03.png",
-      description:
-        "Demo of OpenAI's GPT-3 model on Semantic search using streamlit.",
-      tags: [
-        {
-          lang: "ongoing",
-          color: "red",
-        },
-        {
-          lang: "Streamlit",
-          color: "#ff4b4b",
-        },
-      ],
-      link: "",
-      code: "",
-      linkcolor: "white",
-    },
-    {
-      title: "Youtube Thumbnail Generator & AutoUploader",
-      img_path: "project-02.png",
-      description:
-        "A python streamlit webapp to automate generating & uploading youtube thumbnails using Youtube v3 API",
-      tags: [
-        {
-          lang: "internal project",
-          color: "red",
-        },
-        {
-          lang: "youtube v3 api",
-          color: "red",
-        },
-      ],
-      link: "",
-      code: "",
-      linkcolor: "white",
-    },
+    // {
+    //   title: "Voice Gender Detection",
+    //   img_path: "voice.gif",
+    //   description:
+    //     "A streamlit webapp which detects user's gender and emotion based on realtime audio input.",
+    //   tags: [
+    //     {
+    //       lang: "ongoing",
+    //       color: "red",
+    //     },
+    //     {
+    //       lang: "python",
+    //       color: "#004782",
+    //     },
+    //     {
+    //       lang: "matplotlib",
+    //       color: "#c47206",
+    //     },
+    //     {
+    //       lang: "tensorflow",
+    //       color: "#4257f5",
+    //     },
+    //     {
+    //       lang: "Streamlit",
+    //       color: "#ff4b4b",
+    //     },
+    //   ],
+    //   link: "",
+    //   code: "",
+    //   linkcolor: "white",
+    // },
+    // {
+    //   title: "NeuralViz",
+    //   img_path: "neural.gif",
+    //   description:
+    //     "A webapp to visualize Neural Networks based on no. of layers and neurons, calculate Loss and understand math behind Back Propagation algo.",
+    //   tags: [
+    //     {
+    //       lang: "python",
+    //       color: "#004782",
+    //     },
+    //     {
+    //       lang: "numpy",
+    //       color: "#8700b0",
+    //     },
+    //     {
+    //       lang: "matplotlib",
+    //       color: "#c47206",
+    //     },
+    //     {
+    //       lang: "Streamlit",
+    //       color: "#ff4b4b",
+    //     },
+    //     {
+    //       lang: "Heroku",
+    //       color: "#3c0095",
+    //     },
+    //   ],
+    //   link: "https://neuralviz.herokuapp.com/",
+    //   code: "https://github.com/rohankokkula/neuralviz",
+    //   linkcolor: "white",
+    // },
+    // {
+    //   title: "Semantic Search APP",
+    //   img_path: "project-03.png",
+    //   description:
+    //     "Demo of OpenAI's GPT-3 model on Semantic search using streamlit.",
+    //   tags: [
+    //     {
+    //       lang: "ongoing",
+    //       color: "red",
+    //     },
+    //     {
+    //       lang: "Streamlit",
+    //       color: "#ff4b4b",
+    //     },
+    //   ],
+    //   link: "",
+    //   code: "",
+    //   linkcolor: "white",
+    // },
+    // {
+    //   title: "Youtube Thumbnail Generator & AutoUploader",
+    //   img_path: "project-02.png",
+    //   description:
+    //     "A python streamlit webapp to automate generating & uploading youtube thumbnails using Youtube v3 API",
+    //   tags: [
+    //     {
+    //       lang: "internal project",
+    //       color: "red",
+    //     },
+    //     {
+    //       lang: "youtube v3 api",
+    //       color: "red",
+    //     },
+    //   ],
+    //   link: "",
+    //   code: "",
+    //   linkcolor: "white",
+    // },
 
-    {
-      title: "Newsearcher",
-      img_path: "news.gif",
-      description:
-        "Enter your search keyword and get a summary of news weblinks with images without actually opening the links.",
-      tags: [
-        {
-          lang: "python",
-          color: "#004782",
-        },
-        {
-          lang: "newspaper3k",
-          color: "#303030",
-        },
-        {
-          lang: "Streamlit",
-          color: "#ff4b4b",
-        },
-        {
-          lang: "nltk",
-          color: "#051c61",
-        },
-      ],
-      link: "https://newsearcher.herokuapp.com/",
-      code: "https://github.com/rohankokkula/Newsearcher",
-      linkcolor: "white",
-    },
-    {
-      title: "ActiWeight",
-      img_path: "acti.gif",
-      description:
-        "ActiWeight is an Interactive Visualizer for understanding intuition behind 10 Activation Functions used in Neural Networks.",
-      tags: [
-        {
-          lang: "python",
-          color: "#004782",
-        },
-        {
-          lang: "matplotlib",
-          color: "#c47206",
-        },
-        {
-          lang: "Streamlit",
-          color: "#ff4b4b",
-        },
-        {
-          lang: "Heroku",
-          color: "#3c0095",
-        },
-      ],
-      link: "https://www.youtube.com/watch?v=2vk9lQuX_1Q",
-      code: "https://github.com/rohankokkula/Actiweight",
-      linkcolor: "white",
-    },
+    // {
+    //   title: "Newsearcher",
+    //   img_path: "news.gif",
+    //   description:
+    //     "Enter your search keyword and get a summary of news weblinks with images without actually opening the links.",
+    //   tags: [
+    //     {
+    //       lang: "python",
+    //       color: "#004782",
+    //     },
+    //     {
+    //       lang: "newspaper3k",
+    //       color: "#303030",
+    //     },
+    //     {
+    //       lang: "Streamlit",
+    //       color: "#ff4b4b",
+    //     },
+    //     {
+    //       lang: "nltk",
+    //       color: "#051c61",
+    //     },
+    //   ],
+    //   link: "https://newsearcher.herokuapp.com/",
+    //   code: "https://github.com/rohankokkula/Newsearcher",
+    //   linkcolor: "white",
+    // },
+    // {
+    //   title: "ActiWeight",
+    //   img_path: "acti.gif",
+    //   description:
+    //     "ActiWeight is an Interactive Visualizer for understanding intuition behind 10 Activation Functions used in Neural Networks.",
+    //   tags: [
+    //     {
+    //       lang: "python",
+    //       color: "#004782",
+    //     },
+    //     {
+    //       lang: "matplotlib",
+    //       color: "#c47206",
+    //     },
+    //     {
+    //       lang: "Streamlit",
+    //       color: "#ff4b4b",
+    //     },
+    //     {
+    //       lang: "Heroku",
+    //       color: "#3c0095",
+    //     },
+    //   ],
+    //   link: "https://www.youtube.com/watch?v=2vk9lQuX_1Q",
+    //   code: "https://github.com/rohankokkula/Actiweight",
+    //   linkcolor: "white",
+    // },
   ],
 };
 
@@ -452,48 +401,43 @@ const resumeleft = {
     title: ["Experience"],
     data: [
       {
-        title: "Data Scientist",
-        subtitle: "Nactus India Services Private Limited",
-        date: "June 2020 - present",
+        title: "DevOps Engineer",
+        subtitle: "PortPro US",
+        date: "Feb 2021 - present",
         content: [
-          "Used T5 Transformer Model to build a Question Answering Model which generates questions based on Keywords extracted (WordNet, Sense2Vec) from studyshot notes.",
-          "Built an MCQ Generation model using BERT",
-          "Developed a personalized Chatbot using Rasa (Botfront.io).",
-          "Created an Automatic Thumbnail Generator & Uploader for our youtube videos using Youtube v3 API",
-          "Working on OpenAI's semantic search engine.",
-          "Created a Clean MaterialUI Design for prototyping and design fixing before production-ready of APP",
-          "Created FrontEnd components for StudyShot website",
-          "Working on recommendation system for concept notes and questions based on student's behavior on our Flutter App(tracking)",
+          "Scalable Microservices architecture deployment and configuration Continuous Integration and Deployment for FrondEnd and Backend Stacks with tools like jenkins and GitlabCI.",
+          "Created Custom solution to automate deployment workflow using SLACK.",
+          "Built secure and modern cloud infrastructure Architecture diagrams and implementation with CloudFormations following modern cloud guidelines.",
+          "Build a solution to display logs from Cloudwatch using ElasticSearch and Kinesis Stream.",
+          "Serverless Architecture using Lambda, Appsync, GraphQL and Cognito.",
+          "Containerized deployments with advanced tools like EKS and ECS.",
+          "Monitoring and alerting system setup for large scale servers.",     
         ],
       },
       {
-        title: "Machine Learning Intern",
-        subtitle: "Listnr",
-        date: "April 2020 - June 2020",
+        title: "DevOps Engineer",
+        subtitle: "Tekkon Technologies",
+        date: "Nov 2019 - Present",
         content: [
-          "My role at Listnr included a lot of research work about Audio Encoders and Vocoders and Speech Synthesis in general.",
-          "Worked on some SOTA Inference TTS Models such as TacoTron2, FastSpeech2, and Wavenet.",
-          "Also had hands-on with real-time voice cloning algorithm.",
+          "Scalable Microservices architecture deployment and configuration Continuous Integration and Deployment for FrondEnd and Backend Stacks with tools like jenkins and GitlabCI.",
+          "Customized and Integrated OpenSource tool that replaces functionalities of GSuite.",
+          "Built secure and modern cloud infrastructure Architecture diagrams and implementation with CloudFormations following modern cloud guidelines.",
+          "Build a solution to display logs from Cloudwatch using ElasticSearch and Kinesis Stream.",
+          "Serverless Architecture using Lambda, Appsync, GraphQL and Cognito.",
+          "Containerized deployments with advanced tools like EKS and ECS.",
+          "Monitoring and alerting system setup for large scale servers.",
         ],
       },
       {
-        title: "Data Science Intern",
-        subtitle: "iNeuron.ai",
-        date: "Nov 2020 - January 2021",
+        title: "SysOps Engineer",
+        subtitle: "Genese SOlutions",
+        date: "Feb 2017 - October 2019",
         content: [
-          "Phase 1 included Data Cleaning & Data Annotation for object detection task",
-          "Used YOLO v5 for Fire Detection Project",
-        ],
-      },
-      {
-        title: "Summer Analytics Participant",
-        subtitle: "IIT Guwahati",
-        date: "April 2020 - June 2020",
-        content: [
-          "Learnt & applied various Machine Learning libraries",
-          "Had hands-on with Data Visualization techniques using matplotlib, plotly, streamlit",
-          "Understood and applied Neural networks using Tensorflow and finally competed in Kaggle Hackathon ranking 135 (top 16 percentile) among 854 Kaggle participants",
-          "Ranked 85 out of 1500+ students for overall performance.",
+          "Lead a support team of 20 System Engineers.",
+          "Deployment application and solutions for Top banks in Nepal.",
+          "Disaster Recovery team lead.",
+          "Responsible for Managing All Nepal and UK clients for WebApp and Email hosting on Linux Server (CentOS & Ubuntu) ( 500+ Servers).",
+          "Hired as a full-time systems administrator following an initial consulting role to manage and maintain a 50+ mixed server environment (Windows/Unix/Linux), ensuring 99.9% or better up time. Evaluate, monitor and enhance IT infrastructure with an emphasis on availability, reliability, scalability, security, data confidentiality and system integrity..",
         ],
       },
     ],
@@ -506,16 +450,16 @@ const resumeright = {
       title: ["Education"],
       data: [
         {
-          title: "Bachelor of Engineering in Information Technology",
-          subtitle: "Vidyalankar Institute of Technology, Mumbai",
-          date: "2016 - 2020",
-          content: ["CGPA: 8.06/10"],
+          title: "Bachelor of Engineering in Computer",
+          subtitle: "Nepal Engineering College, Bhaktapur",
+          date: "2013 - 2018",
+          content: ["CGPA: 3.2/4"],
         },
         {
-          title: "Higher Secondary Certificate [HSC]",
-          subtitle: "Dr. Antonio Da Silva Technical Jr. College, Mumbai",
-          date: "2014 - 2016",
-          content: ["Precentage: 80%"],
+          title: "Higher Secondary Certificate [HSEB]",
+          subtitle: "Sagarmatha College, Kathmandu",
+          date: "2011 - 2013",
+          content: ["Precentage: 75%"],
         },
       ],
     },
@@ -525,16 +469,15 @@ const resumeright = {
         {
           title: "Ranks",
           content: [
-            "#135/854 in Summer Analytics Kaggle Competition by IITG",
-            "#113/5064 in CV-NLP Hackathon by HackerEarth",
+            "Top rated DevOps Engineer in Upwork from Nepal",
+            "100% Job Success in Upwork",
           ],
         },
         {
           title: "Achievements",
           content: [
-            "Designing Team Head at ACM-VIT",
-            "5⭐ Gold Badges for Python & Problem Solving at HackerRank ",
-            "Tableau Analyst & Consumer Badge by Tableau Official",
+            "Senior Cloud Engineer/IT Manager",
+            "5⭐ on Security & Deployment at AWS ",
           ],
         },
       ],
@@ -543,17 +486,17 @@ const resumeright = {
       title: ["Freelance Work"],
       data: [
         {
-          title: "Consultancy Website",
-          subtitle: "kidsworldeducationconsultants.com",
+          title: "Application Deployment",
+          subtitle: "app.portpro.io",
           content: [
-            "Created and hosted a website for consultancy providers in Kids Education Domain",
+            "Deployed the application with high scalable and secure architecture supporting thousands of users worldwide",
           ],
         },
         {
-          title: "Portfolio Website",
-          subtitle: "pranavphulware.netlify.app",
+          title: "Application Deployment",
+          subtitle: "growimpact.com.au",
           content: [
-            "Built a personal Filmography portfolio for a friend and later hosted it at Netlify",
+            "Deployed the application with high scalable and secure architecture supporting thousands of users worldwide",
           ],
         },
       ],
@@ -565,45 +508,45 @@ const resumeright = {
 const certifications = {
   certifications: [
     {
-      title: "Tableau Analyst",
-      subtitle: "Tableau",
-      logo_path: "tabana-01.png",
+      title: "AWS Certified DevOps Engineer",
+      subtitle: "AWS DevOps",
+      logo_path: "aws.png",
       certificate_link:
-        "https://www.credly.com/badges/2d43f401-7be0-407d-9a77-7477dda8cade/linked_in_profile",
-      alt_name: "Tableau",
+        "https://www.youracclaim.com/badges/6e1ca2b5-f814-4bb6-b949-5be38efaf988/linked_i",
+      alt_name: "AWS",
       color_code: "#000000",
     },
     {
-      title: "Tableau Consumer",
-      subtitle: "Tableau",
-      logo_path: "tabcon-01.png",
+      title: "Google Adwords",
+      subtitle: "Google",
+      logo_path: "google.png",
       certificate_link:
-        "https://www.credly.com/badges/e5befe7b-2eec-486f-b77e-bd2458c18b26/linked_in_profile",
-      alt_name: "Tableau",
+        "https://analytics.google.com/analytics/academy/course/7/certificate",
+      alt_name: "google",
       color_code: "#000000",
     },
     {
-      title: "Problem solving",
-      subtitle: "HackerRank",
-      logo_path: "problem-01.png",
+      title: "AWS Professional EC2 Systems Manager",
+      subtitle: "AWS",
+      logo_path: "aws-logo.png",
+      certificate_link: "",
+      alt_name: "aws",
+      color_code: "#000000",
+    },
+    {
+      title: "Nagios XI",
+      subtitle: "Nagios",
+      logo_path: "nagios.png",
       certificate_link: "https://www.hackerrank.com/rohankokkula",
       alt_name: "HackerRank",
       color_code: "#000000",
     },
     {
-      title: "Python",
-      subtitle: "HackerRank",
-      logo_path: "python-01.png",
-      certificate_link: "https://www.hackerrank.com/rohankokkula",
-      alt_name: "HackerRank",
-      color_code: "#000000",
-    },
-    {
-      title: "Certificate of Merit",
-      subtitle: "Summer Analytics | IIT Guwahati",
-      logo_path: "iitg-01.png",
+      title: "VMWARE",
+      subtitle: "VMWARE",
+      logo_path: "vmware.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
+        "",
       alt_name: "IITG",
       color_code: "#000000",
     },
@@ -612,7 +555,7 @@ const certifications = {
       subtitle: "SimpliLearn",
       logo_path: "simplilearn-01.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
+        "",
       alt_name: "Simplilearn",
       color_code: "#000000",
     },
@@ -621,7 +564,7 @@ const certifications = {
       subtitle: "Udemy",
       logo_path: "udemy-01.png",
       certificate_link:
-        "https://www.udemy.com/certificate/UC-b17c4c21-91e3-4f8b-b9c2-259468910985/",
+        "",
       alt_name: "Udemy",
       color_code: "#000000",
     },
@@ -630,46 +573,46 @@ const certifications = {
       subtitle: "Stanford University",
       logo_path: "coursera-01.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
+        "",
       alt_name: "Stanford University",
       color_code: "#000000",
     },
-    {
-      title: "Data Visualization",
-      subtitle: "University of Michigan",
-      logo_path: "coursera-01.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "University of Michigan",
-      color_code: "#000000",
-    },
-    {
-      title: "Data Scientist Career Track",
-      subtitle: "DataCamp",
-      logo_path: "datacamp-01.png",
-      certificate_link:
-        "https://www.datacamp.com/statement-of-accomplishment/track/29f2ddab3fbfd0a470713a19c729c0f9d89c88aa",
-      alt_name: "DataCamp",
-      color_code: "#000000",
-    },
-    {
-      title: "PowerBI Masters",
-      subtitle: "iNeuron.ai",
-      logo_path: "ineuron-01.png",
-      certificate_link:
-        "https://academy.ineuron.ai/certificates/downloads/PB009929.pdf",
-      alt_name: "HackerRank",
-      color_code: "#000000",
-    },
-    {
-      title: "Tableau Masters",
-      subtitle: "iNeuron.ai",
-      logo_path: "ineuron-01.png",
-      certificate_link:
-        "https://academy.ineuron.ai/certificates/downloads/TB000634.pdf",
-      alt_name: "HackerRank",
-      color_code: "#000000",
-    },
+    // {
+    //   title: "Data Visualization",
+    //   subtitle: "University of Michigan",
+    //   logo_path: "coursera-01.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
+    //   alt_name: "University of Michigan",
+    //   color_code: "#000000",
+    // },
+    // {
+    //   title: "Data Scientist Career Track",
+    //   subtitle: "DataCamp",
+    //   logo_path: "datacamp-01.png",
+    //   certificate_link:
+    //     "https://www.datacamp.com/statement-of-accomplishment/track/29f2ddab3fbfd0a470713a19c729c0f9d89c88aa",
+    //   alt_name: "DataCamp",
+    //   color_code: "#000000",
+    // },
+    // {
+    //   title: "PowerBI Masters",
+    //   subtitle: "iNeuron.ai",
+    //   logo_path: "ineuron-01.png",
+    //   certificate_link:
+    //     "https://academy.ineuron.ai/certificates/downloads/PB009929.pdf",
+    //   alt_name: "HackerRank",
+    //   color_code: "#000000",
+    // },
+    // {
+    //   title: "Tableau Masters",
+    //   subtitle: "iNeuron.ai",
+    //   logo_path: "ineuron-01.png",
+    //   certificate_link:
+    //     "https://academy.ineuron.ai/certificates/downloads/TB000634.pdf",
+    //   alt_name: "HackerRank",
+    //   color_code: "#000000",
+    // },
   ],
 };
 
@@ -679,15 +622,15 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "contact.jpg",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Cloud and Opensource Development.",
+      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with AWS, Google Cloud, Azure, cPanel, Servers, Databases and Cyber Security.",
   },
   addressSection: {
     title: "Address",
-    subtitle: "Prabhadevi, Mumbai-400025",
+    subtitle: "Kathmandu, Nepal",
   },
   phoneSection: {
     title: "Phone Number",
-    subtitle: "+91 9022817659",
+    subtitle: "+977 9843209020",
   },
 };
 
@@ -695,32 +638,32 @@ const contactPageData = {
 const socialMediaLinks = [
   {
     name: "Github",
-    link: "https://www.linkedin.com/in/rohankokkula/",
+    link: "https://github.com/nitesh-tekkon/",
     iconifyClassname: "simple-icons:hackerrank",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
-    backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
+    backgroundColor: "white", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/rohankokkula/",
+    link: "https://www.linkedin.com/in/nitesh-karki-devops/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
     name: "YouTube",
-    link: "https://www.youtube.com/channel/UC_amoXmmxSY9KusoDczDTXQ",
+    link: "https://www.youtube.com/channel/UC2QlC-s6Ezg5WNnKoZwwmpw",
     fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
     backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
   },
   {
     name: "Gmail",
-    link: "mailto:rohankokkula01@gmail.com",
+    link: "mailto:nitacekarki@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
     name: "Instagram",
-    link: "https://www.instagram.com/soberohan/",
+    link: "https://www.instagram.com/nit_aace/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },

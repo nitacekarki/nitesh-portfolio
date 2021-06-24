@@ -26,17 +26,17 @@ export default function Greeting(props) {
                 <Typewriter
                   onInit={(typewriter) => {
                     typewriter
-                      .typeString("Data Scientist(NLP)")
-                      .pauseFor(200)
+                      .typeString("DevOps Engineer")
+                      .pauseFor(100)
                       .deleteAll()
-                      .typeString("Web Developer")
-                      .pauseFor(200)
+                      .typeString("AWS/Azure Expert")
+                      .pauseFor(100)
                       .deleteAll()
-                      .typeString("UI/UX Designer")
-                      .pauseFor(200)
+                      .typeString("Penetration Tester")
+                      .pauseFor(100)
                       .deleteAll()
                       .typeString("IT Engineer")
-                      .pauseFor(200)
+                      .pauseFor(100)
                       .start();
                   }}
                   options={{
@@ -49,12 +49,12 @@ export default function Greeting(props) {
                 className="greeting-text-span subTitle"
                 style={{ color: theme.text }}>
                 <div className="entities">
-                  A <mark data-entity="noun">Data Science practitioner</mark>{" "}
+                  A <mark data-entity="noun">DevOps Engineer</mark>{" "}
                   who thrives to{" "}
                   <mark data-entity="verb">leverage Startups</mark> using
-                  AI-based solutions along with{" "}
-                  <mark data-entity="skill">Web Development</mark> and a blend
-                  of <mark data-entity="freelance">UI/UX Designing</mark>
+                  modern cloud technology following{" "}
+                  <mark data-entity="skill">DevOps Practice</mark> and a blend
+                  of <mark data-entity="freelance">Cyber Security</mark>
                 </div>
               </span>
               <CompetitiveSites logos={competitiveSites.competitiveSites} />
@@ -63,7 +63,7 @@ export default function Greeting(props) {
                 <Button
                   text="See my resume"
                   newTab={true}
-                  href={greeting.resumeLink}
+                  href="https://drive.google.com/file/d/1VMDoeUN9sWz3fv3iG6iN0s2mU4PTahmp/view?usp=sharing"
                 />
               </div>
             </div>
