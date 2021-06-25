@@ -31,7 +31,7 @@ const competitiveSites = {
       style: {
         color: "white",
       },
-      profileLink: "https://github.com/nitesh-tekkon",
+      profileLink: "https://github.com/nitacekarki",
     },
     {
       siteName: "AWS",
@@ -234,7 +234,7 @@ const projectcards = {
         },
       ],
       link: "https://teath.herokuapp.com ",
-      code: "https://github.com/nitesh-tekkon/TEATH",
+      code: "https://github.com/nitacekarki/TEATH",
       linkcolor: "white",
     },
 
@@ -638,7 +638,7 @@ const contactPageData = {
 const socialMediaLinks = [
   {
     name: "Github",
-    link: "https://github.com/nitesh-tekkon/",
+    link: "https://github.com/nitacekarki/",
     iconifyClassname: "simple-icons:hackerrank",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "white", // Reference https://simpleicons.org/?q=github
