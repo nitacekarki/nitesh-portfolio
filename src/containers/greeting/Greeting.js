@@ -63,7 +63,7 @@ export default function Greeting(props) {
                 <Button
                   text="See my resume"
                   newTab={true}
-                  href="https://drive.google.com/file/d/1oqggDjRjQPSyeNPkRsUwQk0079ZreYtY/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1oqggDjRjQPSyeNPkRsUwQk0079ZreYtY/view"
                 />
               </div>
             </div>

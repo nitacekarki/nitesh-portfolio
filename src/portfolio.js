@@ -401,9 +401,9 @@ const resumeleft = {
     title: ["Experience"],
     data: [
       {
-        title: "DevOps Engineer",
-        subtitle: "PortPro US",
-        date: "Feb 2021 - present",
+        title: "SRE Engineer",
+        subtitle: "CloudFactory",
+        date: "March 2022 - present",
         content: [
           "Scalable Microservices architecture deployment and configuration Continuous Integration and Deployment for FrondEnd and Backend Stacks with tools like jenkins and GitlabCI.",
           "Created Custom solution to automate deployment workflow using SLACK.",
@@ -417,15 +417,14 @@ const resumeleft = {
       {
         title: "DevOps Engineer",
         subtitle: "Tekkon Technologies",
-        date: "Nov 2019 - Present",
+        date: "Nov 2019 - March 2022",
         content: [
-          "Scalable Microservices architecture deployment and configuration Continuous Integration and Deployment for FrondEnd and Backend Stacks with tools like jenkins and GitlabCI.",
-          "Customized and Integrated OpenSource tool that replaces functionalities of GSuite.",
-          "Built secure and modern cloud infrastructure Architecture diagrams and implementation with CloudFormations following modern cloud guidelines.",
-          "Build a solution to display logs from Cloudwatch using ElasticSearch and Kinesis Stream.",
-          "Serverless Architecture using Lambda, Appsync, GraphQL and Cognito.",
-          "Containerized deployments with advanced tools like EKS and ECS.",
-          "Monitoring and alerting system setup for large scale servers.",
+          "Worked closely with development and operations teams to improve system reliability and performance.",
+          "Designed and implemented infrastructure as code using Terraform and AWS CloudFormation templates.",
+          "Built and maintained Kubernetes clusters using Helm and Kustomize for application deployment.",
+          "Created and maintained monitoring and alerting systems using Grafana, Prometheus, and Zabbix.",
+          "Developed automation scripts using Python and Bash for deployment and testing.",
+          "Optimized CI/CD pipelines using GitLab CI/CD and CircleCI.",
         ],
       },
       {
@@ -487,7 +486,7 @@ const resumeright = {
       data: [
         {
           title: "Application Deployment",
-          subtitle: "app.portpro.io",
+          subtitle: "cloudfactory.app",
           content: [
             "Deployed the application with high scalable and secure architecture supporting thousands of users worldwide",
           ],
